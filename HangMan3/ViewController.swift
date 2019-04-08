@@ -26,6 +26,29 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
 }
+    
+    override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator)
+    {
+        super.didUpdateFocus(in: context, with: coordinator)
+        let guessedLetter = context.nextFocusedView
+        guessedLetter?.layer.shadowOffset = CGSize(width: 0, height: 10)
+        guessedLetter?.layer.shadowOpacity = 0.6
+        guessedLetter?.layer.shadowRadius = 15
+        guessedLetter?.layer.shadowColor = UIColor.gray.cgColor
+        context.previouslyFocusedView?.layer.shadowOpacity = 0
+    }
+    
+    @IBAction func letterButtonTapped(_ sender: UIButton)
+    {
+        
+        let guessedLetter = sender.titleLabel?.text
+        sender.isEnabled = false
+        
+        print("guessed \(guessedLetter)" )
+        
+        // check if guessded letter is in word
+        
+        
+    }
 }
