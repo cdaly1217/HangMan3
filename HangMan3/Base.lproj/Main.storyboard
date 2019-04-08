@@ -34,7 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsh-HF-dWa">
-                                <rect key="frame" x="1410" y="220" width="93" height="46"/>
+                                <rect key="frame" x="1410" y="220" width="93" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
@@ -128,6 +128,22 @@
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="0.81102846750000002" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
                     </view>
+                    <connections>
+                        <outlet property="myImageView" destination="U8v-7s-1If" id="ctC-bW-dRS"/>
+                        <outlet property="myLabel" destination="hsh-HF-dWa" id="2vr-c7-jAi"/>
+                        <outletCollection property="myGroupLabels" destination="jzI-xp-nSn" collectionClass="NSMutableArray" id="GN2-1f-pmC"/>
+                        <outletCollection property="myGroupLabels" destination="p3c-cT-80O" collectionClass="NSMutableArray" id="BHi-O4-mSC"/>
+                        <outletCollection property="myGroupLabels" destination="2ek-IH-jum" collectionClass="NSMutableArray" id="7r6-p0-n6N"/>
+                        <outletCollection property="myGroupLabels" destination="qjL-eg-8oG" collectionClass="NSMutableArray" id="YaO-WU-Jit"/>
+                        <outletCollection property="myGroupLabels" destination="h2P-If-TDN" collectionClass="NSMutableArray" id="gg6-AD-9BN"/>
+                        <outletCollection property="myGroupLabels" destination="FBd-n3-ylG" collectionClass="NSMutableArray" id="gPE-iu-ZLx"/>
+                        <outletCollection property="myGroupLabels" destination="Nz4-8X-O09" collectionClass="NSMutableArray" id="P3p-9m-eRF"/>
+                        <outletCollection property="myGroupLabels" destination="eh2-pX-gXv" collectionClass="NSMutableArray" id="JPh-qx-OPz"/>
+                        <outletCollection property="myGroupLabels" destination="0Pe-UB-WHL" collectionClass="NSMutableArray" id="UWk-lZ-NuX"/>
+                        <outletCollection property="myGroupLabels" destination="jm4-nd-8v1" collectionClass="NSMutableArray" id="6Gz-P2-qrB"/>
+                        <outletCollection property="myGroupLabels" destination="sWM-dQ-vld" collectionClass="NSMutableArray" id="1cr-6z-aT0"/>
+                        <outletCollection property="myGroupLabels" destination="Vlt-si-CIw" collectionClass="NSMutableArray" id="Ele-TD-fEo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

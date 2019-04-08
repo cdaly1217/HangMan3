@@ -7,11 +7,13 @@
 //
 
 import UIKit
-// chris is kind of cool
-
 class ViewController: UIViewController
 {
-
+    @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var myLabel: UILabel!
+    
+    @IBOutlet var myGroupLabels: [UILabel]!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -19,6 +21,6 @@ class ViewController: UIViewController
     }
 //lamewasdfsdfs
 // ig you are kind of nice too
-
+//giyutdy
 }
 
