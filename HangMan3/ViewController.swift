@@ -48,7 +48,7 @@ class ViewController: UIViewController
         print("guessed \(guessedLetter)" )
         
         // check if guessded letter is in word
-        
-        
     }
+    
+    @IBOutlet weak var stackedViewSwiped: UIStackView!
 }

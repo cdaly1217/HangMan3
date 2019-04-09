@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8v-7s-1If">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hangman0" translatesAutoresizingMaskIntoConstraints="NO" id="U8v-7s-1If">
                                 <rect key="frame" x="25" y="26" width="944" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -117,192 +117,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm1-Cj-WLb">
-                                <rect key="frame" x="1568" y="515" width="113" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="M"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tC5-VO-gZH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iK-Pp-s3J">
-                                <rect key="frame" x="1492" y="890" width="105" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Z"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="QL6-cW-nAe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zv-Kh-4cY">
-                                <rect key="frame" x="1317" y="890" width="105" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Y"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yGK-tW-W1l"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijn-49-7hO">
-                                <rect key="frame" x="1154" y="890" width="106" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="X"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="pem-6t-eYP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wlt-Ra-oNR">
-                                <rect key="frame" x="1734" y="514" width="108" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="N"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="35X-uT-9Gn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rk9-cg-xwk">
-                                <rect key="frame" x="1729" y="766" width="117" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="W"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qK7-ph-pj0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZW-jQ-avN">
-                                <rect key="frame" x="1656" y="890" width="103" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="?"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcb-4K-sfv">
-                                <rect key="frame" x="1572" y="766" width="105" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="V"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CyM-Y5-eBi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzX-kE-QYY">
-                                <rect key="frame" x="1408" y="766" width="108" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="U"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Wpg-o2-XRe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dum-A5-oRD">
-                                <rect key="frame" x="1241" y="766" width="104" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="T"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yb6-Lj-8kK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpF-0Y-MrC">
-                                <rect key="frame" x="1078" y="766" width="104" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="S"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="BwP-Kc-onE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyn-4l-TUA">
-                                <rect key="frame" x="1657" y="642" width="105" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="R"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="S2J-wm-5YY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjY-hJ-BCu">
-                                <rect key="frame" x="1492" y="642" width="109" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Q"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="2sI-3y-kP1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNP-Xz-aeG">
-                                <rect key="frame" x="1320" y="642" width="104" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="P"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="vxp-K4-YE3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoh-yC-X6m">
-                                <rect key="frame" x="1154" y="642" width="109" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="O"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="8ES-tu-F5m"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-DN-YQy">
-                                <rect key="frame" x="1658" y="391" width="103" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="I"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ggZ-7S-bGy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-vW-qSS">
-                                <rect key="frame" x="1405" y="515" width="103" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="L"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="LCa-Pj-CTa"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKB-B7-MLi">
-                                <rect key="frame" x="1493" y="391" width="108" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="H"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="geL-fx-vzf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7i-5a-47U">
-                                <rect key="frame" x="1318" y="391" width="108" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="G"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bQX-qz-1ml"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I93-6e-V2c">
-                                <rect key="frame" x="1240" y="515" width="105" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="K"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dKQ-Ry-EpG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19S-Sp-bWh">
-                                <rect key="frame" x="1078" y="515" width="103" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="J"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gkr-Xf-HL1"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a Letter!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNO-eV-wDe">
                                 <rect key="frame" x="1356" y="101" width="336" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -310,39 +124,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56W-Ab-PpI">
-                                <rect key="frame" x="1737" y="267" width="103" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="E"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="8td-TY-zH6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMI-R3-fv8">
-                                <rect key="frame" x="1572" y="267" width="107" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="D"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="OwS-D4-znh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DZ-MC-9LJ">
-                                <rect key="frame" x="1409" y="267" width="107" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="C"/>
-                                <connections>
-                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="wD3-ex-BxR"/>
-                                </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="11a-YG-eBY">
-                                <rect key="frame" x="1071" y="46" width="211" height="282"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="11a-YG-eBY">
+                                <rect key="frame" x="1072" y="330" width="738" height="666"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-5P-x2n">
-                                        <rect key="frame" x="0.0" y="0.0" width="211" height="86"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-5P-x2n">
+                                        <rect key="frame" x="6" y="0.0" width="727" height="86"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UqN-h3-yW8">
                                                 <rect key="frame" x="0.0" y="0.0" width="106" height="86"/>
@@ -353,31 +140,237 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W5X-US-mab">
-                                                <rect key="frame" x="106" y="0.0" width="105" height="86"/>
+                                                <rect key="frame" x="156" y="0.0" width="105" height="86"/>
                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                 <state key="normal" title="B"/>
                                                 <connections>
                                                     <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ILx-Qa-hH5"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0DZ-MC-9LJ">
+                                                <rect key="frame" x="311" y="0.0" width="107" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="C"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="wD3-ex-BxR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yMI-R3-fv8">
+                                                <rect key="frame" x="468" y="0.0" width="107" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="D"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="OwS-D4-znh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56W-Ab-PpI">
+                                                <rect key="frame" x="625" y="0.0" width="102" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="E"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="8td-TY-zH6"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFK-pq-RRf">
-                                        <rect key="frame" x="0.0" y="86" width="211" height="86"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="wFK-pq-RRf">
+                                        <rect key="frame" x="91" y="116" width="557" height="86"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ruq-Yl-duS">
-                                                <rect key="frame" x="0.0" y="0.0" width="211" height="86"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="101" height="86"/>
                                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                                 <state key="normal" title="F"/>
                                                 <connections>
                                                     <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="3l3-7e-HuW"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7i-5a-47U">
+                                                <rect key="frame" x="151" y="0.0" width="108" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="G"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="bQX-qz-1ml"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKB-B7-MLi">
+                                                <rect key="frame" x="309" y="0.0" width="108" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="H"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="geL-fx-vzf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHM-DN-YQy">
+                                                <rect key="frame" x="467" y="0.0" width="90" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="I"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="ggZ-7S-bGy"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tot-wM-RGg">
-                                        <rect key="frame" x="0.0" y="172" width="211" height="110"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Tot-wM-RGg">
+                                        <rect key="frame" x="6" y="232" width="727" height="86"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19S-Sp-bWh">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="J"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gkr-Xf-HL1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I93-6e-V2c">
+                                                <rect key="frame" x="150" y="0.0" width="105" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="K"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="dKQ-Ry-EpG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-vW-qSS">
+                                                <rect key="frame" x="305" y="0.0" width="101" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="L"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="LCa-Pj-CTa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm1-Cj-WLb">
+                                                <rect key="frame" x="456" y="0.0" width="113" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="M"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="tC5-VO-gZH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wlt-Ra-oNR">
+                                                <rect key="frame" x="619" y="0.0" width="108" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="N"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="35X-uT-9Gn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <viewLayoutGuide key="safeArea" id="mCW-09-jM1"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="KDi-iI-FJG">
+                                        <rect key="frame" x="81" y="348" width="577" height="86"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoh-yC-X6m">
+                                                <rect key="frame" x="0.0" y="0.0" width="109" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="O"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="8ES-tu-F5m"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNP-Xz-aeG">
+                                                <rect key="frame" x="159" y="0.0" width="104" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="P"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="vxp-K4-YE3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zjY-hJ-BCu">
+                                                <rect key="frame" x="313" y="0.0" width="109" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Q"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="2sI-3y-kP1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyn-4l-TUA">
+                                                <rect key="frame" x="472" y="0.0" width="105" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="R"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="S2J-wm-5YY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Ekd-7e-JqO">
+                                        <rect key="frame" x="0.0" y="464" width="738" height="86"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpF-0Y-MrC">
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="S"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="BwP-Kc-onE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dum-A5-oRD">
+                                                <rect key="frame" x="154" y="0.0" width="104" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="T"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yb6-Lj-8kK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzX-kE-QYY">
+                                                <rect key="frame" x="308" y="0.0" width="108" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="U"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Wpg-o2-XRe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wcb-4K-sfv">
+                                                <rect key="frame" x="466" y="0.0" width="105" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="V"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CyM-Y5-eBi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rk9-cg-xwk">
+                                                <rect key="frame" x="621" y="0.0" width="117" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="W"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="qK7-ph-pj0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WOO-PT-iU5">
+                                        <rect key="frame" x="87" y="580" width="565" height="86"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ijn-49-7hO">
+                                                <rect key="frame" x="0.0" y="0.0" width="106" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="X"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="pem-6t-eYP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zv-Kh-4cY">
+                                                <rect key="frame" x="156" y="0.0" width="105" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Y"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yGK-tW-W1l"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iK-Pp-s3J">
+                                                <rect key="frame" x="311" y="0.0" width="105" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="Z"/>
+                                                <connections>
+                                                    <action selector="letterButtonTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="QL6-cW-nAe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZW-jQ-avN">
+                                                <rect key="frame" x="466" y="0.0" width="99" height="86"/>
+                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                                <state key="normal" title="?"/>
+                                            </button>
+                                        </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -388,6 +381,7 @@
                     <connections>
                         <outlet property="myImageView" destination="U8v-7s-1If" id="ctC-bW-dRS"/>
                         <outlet property="myLabel" destination="hsh-HF-dWa" id="2vr-c7-jAi"/>
+                        <outlet property="stackedViewSwiped" destination="11a-YG-eBY" id="KeO-GH-d2b"/>
                         <outletCollection property="myGroupLabels" destination="jzI-xp-nSn" collectionClass="NSMutableArray" id="GN2-1f-pmC"/>
                         <outletCollection property="myGroupLabels" destination="p3c-cT-80O" collectionClass="NSMutableArray" id="BHi-O4-mSC"/>
                         <outletCollection property="myGroupLabels" destination="2ek-IH-jum" collectionClass="NSMutableArray" id="7r6-p0-n6N"/>
@@ -406,4 +400,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="hangman0" width="275" height="183"/>
+    </resources>
 </document>
