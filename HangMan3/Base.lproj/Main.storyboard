@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hangman0" translatesAutoresizingMaskIntoConstraints="NO" id="U8v-7s-1If">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hangman0New" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U8v-7s-1If">
                                 <rect key="frame" x="25" y="26" width="944" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -401,6 +401,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hangman0" width="275" height="183"/>
+        <image name="hangman0New" width="275" height="183"/>
     </resources>
 </document>
