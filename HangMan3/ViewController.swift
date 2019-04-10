@@ -12,12 +12,13 @@ class ViewController: UIViewController
 {
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myLabel: UILabel!
-    @IBOutlet var myGroupLabels: [UILabel]!
     
     var counts = 0
     var test = "TESTING"
     var alphabet: [String] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-    
+    var alphabet2: String
+    var guessedWord = ""
+    var word: String
     
     
     
@@ -53,10 +54,24 @@ class ViewController: UIViewController
         {
             print(test + " contains " + guessedLetter!)
         }
-        else if !test.contains(Character(guessedLetter ?? "0"))
+        
+       
+        for letter in word.characters
         {
-            print(test + " does not contain " + guessedLetter!)
+            if guessedLetter.contains(letter)
+            {
+                guessedLetter += "\(letter)"
+            }
+            else
+            {
+                guessedLetter += "_"
+            }
         }
+//        else if !test.contains(Character(guessedLetter ?? "0"))
+//        {
+//            print(test + " does not contain " + guessedLetter!)
+//        }
+        
         
         print("guessed \(guessedLetter)" )
         
@@ -67,6 +82,24 @@ class ViewController: UIViewController
         
         
     
+    
+    func fudd(word: String)
+    {
+        var result = ""
+        for char in word
+        {
+            if char == "r"
+            {
+                result += "w"
+            }
+            else
+            {
+                result += String(char)
+            }
+            
+        }
+        print(result)
+    }
     
    
 }
