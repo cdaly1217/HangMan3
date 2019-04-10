@@ -15,7 +15,7 @@ class ViewController: UIViewController
     @IBOutlet var myGroupLabels: [UILabel]!
     
     var counts = 0
-    var test = "Testing"
+    var test = "TESTING"
     var alphabet: [String] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
     
     
@@ -45,12 +45,28 @@ class ViewController: UIViewController
         let guessedLetter = sender.titleLabel?.text
         sender.isEnabled = false
         
+        // if guessedLetter is tapped, i want it to display in label
+        // if guessedLetter is tapped i want it to display in not good label
+        myGroupLabels[0].text = guessedLetter
+        
+        if test.contains(Character(guessedLetter ?? "0"))
+        {
+            print(test + " contains " + guessedLetter!)
+        }
+        else if !test.contains(Character(guessedLetter ?? "0"))
+        {
+            print(test + " does not contain " + guessedLetter!)
+        }
+        
         print("guessed \(guessedLetter)" )
         
         // check if guessded letter is in word
     }
     
     @IBOutlet weak var stackedViewSwiped: UIStackView!
+        
+        
+    
     
    
 }
