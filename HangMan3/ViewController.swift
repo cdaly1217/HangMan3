@@ -16,9 +16,11 @@ class ViewController: UIViewController
     var counts = 0
     var test = "TESTING"
     var alphabet: [String] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-    var alphabet2: String
+//    var alphabet2: String
     var guessedWord = ""
-    var word: String
+//    var word: String
+    var actualWord = "JOURNAL"
+    var displayWord = ""
     
     
     
@@ -27,6 +29,8 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        setdisplayWord()
+        myLabel.text = displayWord
 }
     
     override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator)
@@ -48,58 +52,66 @@ class ViewController: UIViewController
         
         // if guessedLetter is tapped, i want it to display in label
         // if guessedLetter is tapped i want it to display in not good label
-        myGroupLabels[0].text = guessedLetter
-        
+//        myGroupLabels[0].text = guessedLetter
+//
         if test.contains(Character(guessedLetter ?? "0"))
         {
             print(test + " contains " + guessedLetter!)
         }
-        
-       
-        for letter in word.characters
-        {
-            if guessedLetter.contains(letter)
-            {
-                guessedLetter += "\(letter)"
-            }
-            else
-            {
-                guessedLetter += "_"
-            }
+
+//
+//        for letter in word.characters
+//        {
+//            if guessedLetter.contains(letter)
+//            {
+//                guessedLetter += "\(letter)"
+//            }
+//            else
+//            {
+//                guessedLetter += "_"
+//            }
         }
 //        else if !test.contains(Character(guessedLetter ?? "0"))
 //        {
 //            print(test + " does not contain " + guessedLetter!)
 //        }
-        
-        
-        print("guessed \(guessedLetter)" )
-        
+    
+//        
+//        print("guessed \(guessedLetter)" )
+    
         // check if guessded letter is in word
     }
     
-    @IBOutlet weak var stackedViewSwiped: UIStackView!
+//    @IBOutlet weak var stackedViewSwiped: UIStackView!
+
         
-        
     
     
-    func fudd(word: String)
-    {
-        var result = ""
-        for char in word
-        {
-            if char == "r"
-            {
-                result += "w"
-            }
-            else
-            {
-                result += String(char)
-            }
-            
-        }
-        print(result)
-    }
-    
+//    func guessedWord(word: String)
+//    {
+//        var result = ""
+//        for char in word
+//        {
+//            if char == actualWord
+//            {
+//                result += guessedLetter
+//            }
+//            else if ()
+//            {
+//                result += String(char)
+//            }
+//
+//        }
+//        print(result)
+//    }
+//
+//    func setdisplayWord()
+//    {
+//        for i in 0..<actualWord.count
+//        {
+//            displayWord += "_ "
+//        }
+//    }
+
    
-}
+//}
