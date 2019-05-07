@@ -13,15 +13,16 @@ class ViewController: UIViewController
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myLabel: UILabel!
     
+    @IBOutlet weak var guessingLabel: UILabel!
     var counts = 0
     var test = "TESTING"
     var alphabet: [String] = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 //    var alphabet2: String
-    var guessedWord = ""
-//    var word: String
+    var guessedWord: String = ""
+    var word: String = ""
     var actualWord = "JOURNAL"
     var displayWord = ""
-    
+    var letter: String = ""
     
     
     
@@ -29,7 +30,7 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-//        setdisplayWord()
+        setdisplayWord()
         myLabel.text = displayWord
 }
     
@@ -59,25 +60,25 @@ class ViewController: UIViewController
             print(test + " contains " + guessedLetter!)
         }
 
-//
-//        for letter in word.characters
-//        {
-//            if guessedLetter.contains(letter)
-//            {
-//                guessedLetter += "\(letter)"
-//            }
-//            else
-//            {
-//                guessedLetter += "_"
-//            }
+
+        for letter in word
+        {
+            if guessedWord.contains(actualWord)
+            {
+                guessedWord += "\(letter)"
+            }
+            else
+            {
+                guessedWord = "_"
+            }
         }
-//        else if !test.contains(Character(guessedLetter ?? "0"))
+//        else if test.contains(Character(guessedLetter ?? "0"))
 //        {
 //            print(test + " does not contain " + guessedLetter!)
 //        }
-    
-//        
-//        print("guessed \(guessedLetter)" )
+//
+//
+        print("guessed \(String(describing: guessedLetter))" )
     
         // check if guessded letter is in word
     }
@@ -87,31 +88,33 @@ class ViewController: UIViewController
         
     
     
-//    func guessedWord(word: String)
-//    {
-//        var result = ""
-//        for char in word
-//        {
-//            if char == actualWord
-//            {
-//                result += guessedLetter
-//            }
-//            else if ()
-//            {
-//                result += String(char)
-//            }
+    func guessedWord(word: String)
+    {
+        var result = ""
+        for letter in word
+        {
+            if guessedWord.contains(letter)
+            {
+                result += actualWord
+            }
+            else if guessedWord.contains(letter)
+            {
+                result += String()
+            }
+
+        }
+        print(result)
+    }
 //
-//        }
-//        print(result)
-//    }
-//
-//    func setdisplayWord()
-//    {
-//        for i in 0..<actualWord.count
-//        {
-//            displayWord += "_ "
-//        }
-//    }
+    func setdisplayWord()
+    {
+        for i in 0..<actualWord.count
+        {
+            displayWord += "_ "
+
+        }
+    }
 
    
-//}
+
+}
