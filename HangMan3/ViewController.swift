@@ -12,6 +12,7 @@ class ViewController: UIViewController
 {
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var stackViewSwipped: UIStackView!
     
     @IBOutlet weak var guessingLabel: UILabel!
     var counts = 0
@@ -100,6 +101,7 @@ class ViewController: UIViewController
             else if guessedWord.contains(letter)
             {
                 result += String()
+                result += displayWord
             }
 
         }
@@ -111,6 +113,11 @@ class ViewController: UIViewController
         for i in 0..<actualWord.count
         {
             displayWord += "_ "
+            
+            if guessedWord.contains(letter)
+            {
+                
+            }
 
         }
     }

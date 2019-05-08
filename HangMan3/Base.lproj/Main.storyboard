@@ -305,7 +305,7 @@
                         <outlet property="guessingLabel" destination="jzI-xp-nSn" id="Kzg-4w-qXA"/>
                         <outlet property="myImageView" destination="U8v-7s-1If" id="ctC-bW-dRS"/>
                         <outlet property="myLabel" destination="hsh-HF-dWa" id="2vr-c7-jAi"/>
-                        <outlet property="stackedViewSwiped" destination="11a-YG-eBY" id="KeO-GH-d2b"/>
+                        <outlet property="stackViewSwipped" destination="11a-YG-eBY" id="h2D-Dn-jRV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
